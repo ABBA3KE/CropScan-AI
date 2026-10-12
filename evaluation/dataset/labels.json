@@ -1,0 +1,92 @@
+[
+  {
+    "id": "maize_01",
+    "filename": "maize/maize_northern_blight.jpg",
+    "crop": "Maize",
+    "plantPart": "leaf",
+    "status": "diseased",
+    "diseaseName": "Northern Leaf Blight",
+    "description": "Elongate grayish-green lesion parallel to veins on maize leaf"
+  },
+  {
+    "id": "maize_02",
+    "filename": "maize/maize_healthy.jpg",
+    "crop": "Maize",
+    "plantPart": "leaf",
+    "status": "healthy",
+    "diseaseName": "Healthy Crop",
+    "description": "Vigorous green maize leaf with no pathogen lesions"
+  },
+  {
+    "id": "millet_01",
+    "filename": "millet/millet_downy_mildew.jpg",
+    "crop": "Millet",
+    "plantPart": "head",
+    "status": "diseased",
+    "diseaseName": "Downy Mildew (Green Ear)",
+    "description": "Pearl millet floral head transformed into leafy green ear structure"
+  },
+  {
+    "id": "millet_02",
+    "filename": "millet/millet_rust.jpg",
+    "crop": "Millet",
+    "plantPart": "leaf",
+    "status": "diseased",
+    "diseaseName": "Millet Rust",
+    "description": "Powdery reddish-brown rust pustules on millet leaf"
+  },
+  {
+    "id": "sorghum_01",
+    "filename": "sorghum/sorghum_anthracnose.jpg",
+    "crop": "Sorghum",
+    "plantPart": "leaf",
+    "status": "diseased",
+    "diseaseName": "Anthracnose",
+    "description": "Circular lesions with dark reddish-purple margins on sorghum foliage"
+  },
+  {
+    "id": "sorghum_02",
+    "filename": "sorghum/sorghum_grain_mold.jpg",
+    "crop": "Sorghum",
+    "plantPart": "head",
+    "status": "diseased",
+    "diseaseName": "Grain Mold",
+    "description": "Black and pink fungal mycelium coating mature sorghum grain panicle"
+  },
+  {
+    "id": "rice_01",
+    "filename": "rice/rice_blast.jpg",
+    "crop": "Rice",
+    "plantPart": "leaf",
+    "status": "diseased",
+    "diseaseName": "Rice Blast (Leaf and Neck)",
+    "description": "Spindle-shaped diamond eye lesions with gray center on rice leaf"
+  },
+  {
+    "id": "rice_02",
+    "filename": "rice/rice_healthy.jpg",
+    "crop": "Rice",
+    "plantPart": "panicle",
+    "status": "healthy",
+    "diseaseName": "Healthy Crop",
+    "description": "Full golden-yellow healthy rice panicle with well-filled grains"
+  },
+  {
+    "id": "tomato_01",
+    "filename": "tomato/tomato_early_blight.jpg",
+    "crop": "Tomato",
+    "plantPart": "leaf",
+    "status": "diseased",
+    "diseaseName": "Early Blight",
+    "description": "Concentric ring target-board brown spots with yellow halo on tomato leaf"
+  },
+  {
+    "id": "tomato_02",
+    "filename": "tomato/tomato_blossom_rot.jpg",
+    "crop": "Tomato",
+    "plantPart": "fruit",
+    "status": "diseased",
+    "diseaseName": "Blossom End Rot",
+    "description": "Sunken leathery black flat patch at blossom end of green tomato fruit"
+  }
+]

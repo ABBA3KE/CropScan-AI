@@ -1,0 +1,16 @@
+{
+  "name": "cropscan-ai-root",
+  "version": "1.0.0",
+  "description": "CropScan AI - AI-Powered Crop Disease Detection Web App for Smallholder Farmers",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "evaluate": "node evaluation/evaluate.js",
+    "build:client": "npm --prefix client run build",
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client start"
+  },
+  "author": "Musa Musa",
+  "license": "MIT"
+}

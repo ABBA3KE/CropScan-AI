@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "totalSamples": 10,
+    "cropAccuracy": "100.0",
+    "pathologyAccuracy": "100.0",
+    "avgLatency": 756
+  },
+  "cropStats": {
+    "Maize": {
+      "total": 2,
+      "cropCorrect": 2,
+      "statusCorrect": 2,
+      "totalConfidence": 190
+    },
+    "Millet": {
+      "total": 2,
+      "cropCorrect": 2,
+      "statusCorrect": 2,
+      "totalConfidence": 187
+    },
+    "Sorghum": {
+      "total": 2,
+      "cropCorrect": 2,
+      "statusCorrect": 2,
+      "totalConfidence": 186
+    },
+    "Rice": {
+      "total": 2,
+      "cropCorrect": 2,
+      "statusCorrect": 2,
+      "totalConfidence": 178
+    },
+    "Tomato": {
+      "total": 2,
+      "cropCorrect": 2,
+      "statusCorrect": 2,
+      "totalConfidence": 176
+    }
+  },
+  "details": [
+    {
+      "id": "maize_01",
+      "expectedCrop": "Maize",
+      "predictedCrop": "Maize",
+      "isCropMatch": true,
+      "expectedDisease": "Northern Leaf Blight",
+      "predictedDisease": "maize northern blight",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 94,
+      "latencyMs": 737,
+      "error": null
+    },
+    {
+      "id": "maize_02",
+      "expectedCrop": "Maize",
+      "predictedCrop": "Maize",
+      "isCropMatch": true,
+      "expectedDisease": "Healthy Crop",
+      "predictedDisease": "Healthy Crop",
+      "expectedStatus": "healthy",
+      "predictedStatus": "healthy",
+      "isStatusMatch": true,
+      "confidence": 96,
+      "latencyMs": 812,
+      "error": null
+    },
+    {
+      "id": "millet_01",
+      "expectedCrop": "Millet",
+      "predictedCrop": "Millet",
+      "isCropMatch": true,
+      "expectedDisease": "Downy Mildew (Green Ear)",
+      "predictedDisease": "millet downy mildew",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 98,
+      "latencyMs": 680,
+      "error": null
+    },
+    {
+      "id": "millet_02",
+      "expectedCrop": "Millet",
+      "predictedCrop": "Millet",
+      "isCropMatch": true,
+      "expectedDisease": "Millet Rust",
+      "predictedDisease": "millet rust",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 89,
+      "latencyMs": 629,
+      "error": null
+    },
+    {
+      "id": "sorghum_01",
+      "expectedCrop": "Sorghum",
+      "predictedCrop": "Sorghum",
+      "isCropMatch": true,
+      "expectedDisease": "Anthracnose",
+      "predictedDisease": "sorghum anthracnose",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 95,
+      "latencyMs": 846,
+      "error": null
+    },
+    {
+      "id": "sorghum_02",
+      "expectedCrop": "Sorghum",
+      "predictedCrop": "Sorghum",
+      "isCropMatch": true,
+      "expectedDisease": "Grain Mold",
+      "predictedDisease": "sorghum grain mold",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 91,
+      "latencyMs": 898,
+      "error": null
+    },
+    {
+      "id": "rice_01",
+      "expectedCrop": "Rice",
+      "predictedCrop": "Rice",
+      "isCropMatch": true,
+      "expectedDisease": "Rice Blast (Leaf and Neck)",
+      "predictedDisease": "rice blast",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 90,
+      "latencyMs": 797,
+      "error": null
+    },
+    {
+      "id": "rice_02",
+      "expectedCrop": "Rice",
+      "predictedCrop": "Rice",
+      "isCropMatch": true,
+      "expectedDisease": "Healthy Crop",
+      "predictedDisease": "Healthy Crop",
+      "expectedStatus": "healthy",
+      "predictedStatus": "healthy",
+      "isStatusMatch": true,
+      "confidence": 88,
+      "latencyMs": 663,
+      "error": null
+    },
+    {
+      "id": "tomato_01",
+      "expectedCrop": "Tomato",
+      "predictedCrop": "Tomato",
+      "isCropMatch": true,
+      "expectedDisease": "Early Blight",
+      "predictedDisease": "tomato early blight",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 88,
+      "latencyMs": 659,
+      "error": null
+    },
+    {
+      "id": "tomato_02",
+      "expectedCrop": "Tomato",
+      "predictedCrop": "Tomato",
+      "isCropMatch": true,
+      "expectedDisease": "Blossom End Rot",
+      "predictedDisease": "tomato blossom rot",
+      "expectedStatus": "diseased",
+      "predictedStatus": "diseased",
+      "isStatusMatch": true,
+      "confidence": 88,
+      "latencyMs": 835,
+      "error": null
+    }
+  ]
+}
